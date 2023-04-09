@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33103.184
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AuthenticationSample", "AuthenticationSample.csproj", "{29D65CC7-5C75-49D4-BF55-B74DD7F232F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.Data2", "..\BookStore.Data2\BookStore.Data2.csproj", "{0DAFA500-F382-4E50-B08D-A38C19B24BBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookStore.Data2", "..\BookStore.Data2\BookStore.Data2.csproj", "{0DAFA500-F382-4E50-B08D-A38C19B24BBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.WebAPI", "..\BookStore.WebAPI\BookStore.WebAPI.csproj", "{BEDDA76F-D41B-46F5-93AA-68E3CA84CEEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookStore.WebApp", "..\BookStore.WebApp\BookStore.WebApp.csproj", "{CC4EE047-4CE8-49D3-B95E-1883CAE147F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{0DAFA500-F382-4E50-B08D-A38C19B24BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DAFA500-F382-4E50-B08D-A38C19B24BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DAFA500-F382-4E50-B08D-A38C19B24BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEDDA76F-D41B-46F5-93AA-68E3CA84CEEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDDA76F-D41B-46F5-93AA-68E3CA84CEEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDDA76F-D41B-46F5-93AA-68E3CA84CEEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDDA76F-D41B-46F5-93AA-68E3CA84CEEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC4EE047-4CE8-49D3-B95E-1883CAE147F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC4EE047-4CE8-49D3-B95E-1883CAE147F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC4EE047-4CE8-49D3-B95E-1883CAE147F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC4EE047-4CE8-49D3-B95E-1883CAE147F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

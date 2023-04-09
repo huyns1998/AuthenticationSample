@@ -5,10 +5,10 @@ using System.Threading.Tasks;
 
 namespace AuthenticationSample
 {
-    public class ApplicationUserClaimsPrincipalFactory: UserClaimsPrincipalFactory<ApplicationUser>
+    public class ApplicationUserClaimsPrincipalFactory: UserClaimsPrincipalFactory<ApplicationUser, IdentityRole>
     {
-        public ApplicationUserClaimsPrincipalFactory(UserManager<ApplicationUser> userManager,
-            IOptions<IdentityOptions> optionAccessor): base(userManager, optionAccessor)
+        public ApplicationUserClaimsPrincipalFactory(UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager,
+            IOptions<IdentityOptions> optionAccessor): base(userManager,roleManager, optionAccessor)
         {
         }
 
